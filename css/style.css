@@ -1,0 +1,437 @@
+body {
+  background: url('../img/main_bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/*footer*/
+
+footer {
+  background:url('../img/wall_bg.png');
+  font-size:12px;
+  line-height:14px;
+  padding-top:10px;
+}
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display:inline-block;
+  padding-right:10px;
+  padding-left:10px;
+  border-right:1px solid #000;
+}
+
+footer ul li:nth-last-child(1) {
+  border-right:none;
+}
+
+footer ul li a {
+  color:black;
+}
+/*footer*/
+
+
+.section_01 h1, .word-of-mouth {
+  font-family: Klee;
+  font-weight: normal;
+}
+
+/*word-of-mouth*/
+.word-of-mouth {
+  background: linear-gradient(#a5d1e0 0%, #fff 100%);
+}
+
+.word-of-mouth h3{
+  font-family: Klee;
+  font-weight: bold;
+  text-align: center;
+  text-decoration:underline;
+  margin:20px;
+}
+
+.word-of-mouth .voices {
+  margin:20px auto;
+}
+
+.word-of-mouth .female {
+  margin:10px 0;
+}
+
+.word-of-mouth .female .testimonials {
+  max-height: 96px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  padding:10px;
+}
+
+.word-of-mouth .female .testimonials h6, .word-of-mouth .female .testimonials p {
+  font-size:13px;
+}
+
+
+/* subscription-warning */
+.subscription-warning {
+  background: linear-gradient(#b9d7e2 0%, #8ab7ef 100%);
+  font-family: Klee;
+
+}
+
+.subscription-warning h4 span{
+  background: white;
+  color: #ead875;
+  text-align: center;
+}
+
+/* インカラミの仕組み */
+.how_inkarami_works {
+  background: linear-gradient(#a5d1e0 0%, #fff 100%);
+  padding:4vh;
+  font-family: Klee;
+}
+
+.how_inkarami_works h2 {
+  text-align: center;
+  font-size:1.5em;
+}
+
+.how_inkarami_works p {
+  font-size:1.5em;
+  text-align: center;
+  margin:4vh auto 1vh;
+}
+
+.how_inkarami_works p span {
+  font-size:1.5em;
+}
+
+.how_inkarami_works p .span02 {
+  color: #8a5a97;
+}
+
+.how_inkarami_works h4 {
+  font-size:2em;
+  text-align:center;
+  margin:2vh auto 4vh;
+}
+
+.how_inkarami_works h4 strong {
+  color:#8a5a97;
+}
+
+.how_inkarami_works h4 span {
+  font-size: 1.5em;
+  color: #8a5a97;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.39);
+}
+
+/* section001 */
+.section001 {
+  background: url('../img/wall_bg.png');
+  padding:40px;
+}
+
+.section001 p {
+  font-size:1.5em;
+  line-height:2em;
+  text-align: center;
+  font-family: Klee;
+}
+
+.section001 p span {
+  font-weight:bold;
+  font-size:1.5em;
+}
+
+/* section002 */
+.section002 {
+  background:white;
+}
+
+.section002 .text {
+  border-radius: 10px 10px 0px 0px;
+  background: linear-gradient(#678fbf 0%, #b4ddeb 100%);
+  box-shadow: 5px 3px 6px rgba(0, 0, 0, 0.54);
+  text-align: center;
+  font-family: Klee;
+  padding:20px;
+  margin:4vh auto;
+}
+
+.section002 .text h3 {
+  font-weight:bold;
+  color:#ead875;
+  font-size:2em;
+}
+
+.section002 .text p {
+  font-size:1.5em;
+  color: white;
+}
+
+.section002 .text p strong {
+  color: #c93f25;
+}
+
+
+/* shampoo-treatment */
+.st500 {
+  background-image: linear-gradient(to left bottom, #ffffff, #e2e3f0, #c1c8e1, #9cafd3, #7098c4);
+}
+
+.st900 {
+  background-image: linear-gradient(to right bottom, #ffffff, #ececfb, #d4dbf7, #b7cbf3, #93bdef);
+}
+
+.shampoo-treatment h3 {
+  font-family: Klee;
+  text-align: center;
+  margin-top:30px;
+}
+
+.shampoo-treatment-item {
+  width:80%;
+  max-width:450px;
+  margin:30px auto;
+  /* background-color: #efa2a2; */
+  text-align: center;
+}
+
+.shampoo-treatment-item p {
+  font-size: 1em;
+  font-family: "Hiragino Mincho ProN";
+  color:#fff;
+  
+}
+
+.shampoo-treatment-item p em {
+  font-size:1.25em;
+  font-style: normal;
+  padding:0 5px;
+}
+
+.shampoo-treatment-item p strong {
+  text-decoration: line-through;
+  color: red;
+}
+
+.shampoo-treatment-item p strong span {
+  color:#fff;
+  font-size:2em;
+}
+
+.shampoo-treatment-purchase {
+  width:80%;
+  max-width:450px;
+  margin:10px auto;
+  /* background-color:grey; */
+  text-align: center;
+}
+.shampoo-treatment-purchase .shampoo-treatment-subscription p {
+  width: 240px;
+  height: 40px;
+  background: #fdf0a6;
+  border: 1px double #707070;
+  font-family: "Hiragino Mincho ProN";
+}
+
+.shampoo-treatment-purchase .shampoo-treatment-subscription-price p {
+  color: white;
+  font-size:1em;
+  font-family: "Hiragino Mincho ProN";
+
+}
+
+.shampoo-treatment-purchase .shampoo-treatment-subscription-price p span {
+  color: #fdf0a6;
+}
+
+.shampoo-treatment-purchase .shampoo-treatment-subscription-price p strong {
+  font-size:2.25em;
+}
+
+.shampoo-treatment-purchase .subscription-purchase {
+  width: 360px;
+  height: 48px;
+  background: linear-gradient(#efa2a2 0%, #fe6a8d 100%);
+  border: 1px solid #707070;
+  filter: drop-shadow(3px 3px 7px rgba(0, 0, 0, 0.45));
+  border-radius: 10px;
+  color:white;
+}
+
+.shampoo-treatment-purchase .purchase {
+  width: 360px;
+  height: 48px;
+  border-radius: 10px;
+  background: #8d5a97;
+  border: 1px solid #707070;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.45);
+  color:white;
+}
+
+.shampoo-treatment-purchase .btn {
+  margin: 20px auto 10px;
+}
+
+/*subscription*/
+
+.subscription .limited-for-subscription-only {
+  max-width: 480px;
+  max-height: 264px;
+  background: linear-gradient(#1f7c9b 0%, #068dbc 100%);
+  filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.54));
+  position:relative;
+  border-radius: 10px 10px 0 0;
+}
+
+.subscription .limited-for-subscription-only h5 {
+  font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro";
+  text-align: center;
+}
+
+.subscription .limited-for-subscription-only p {
+  font-family: Klee;
+  font-weight: normal;
+  text-align: center;
+}
+
+.subscription .limited-for-subscription-only .center {
+  margin:0 auto;
+  width:360px;
+
+}
+
+.subscription .limited-for-subscription-only .center button {
+  width: 360px;
+  height: 48px;
+  border-radius: 10px;
+  background: linear-gradient(#efa2a2 0%, #fe6a8d 100%);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.45);
+  color:#fff;
+  margin-bottom:20px;
+}
+
+
+
+
+/* Trial Set トライアルセット */
+.ts01 {
+  background-image: linear-gradient(to left bottom, #ffffff, #e7e8f1, #cdd2e3, #b0bdd5, #90a9c7);
+}
+
+.ts02 {
+  background-image: linear-gradient(to right bottom, #ffffff, #e0e0ee, #bdc3de, #95a8cf, #678fbf);
+}
+
+.trial-set {
+  padding:30px;
+}
+.trial-set h2 {
+  font-family: Klee;
+  text-align: center;
+  margin-bottom:2vh;
+}
+
+.trial-set .trial-set-item {
+  width:70%;
+  max-width:350px;
+  margin:0 auto;
+  /* background:red; */
+  text-align: center;
+}
+
+.trial-set .trial-set-item h3 {
+  font-family: "Hiragino Mincho ProN";
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.trial-set .trial-set-item p {
+  font-family: "Hiragino Mincho ProN";
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.trial-set .trial-set-item p span {
+  font-size: 32px;
+}
+
+.trial-set .trial-set-item p strong {
+  color: #fdf0ac;
+}
+
+
+/* 単体購入 */
+.one-by-one {
+  background: url('../img/wall_bg.png');
+}
+.one-by-one h2 {
+  text-align: center;
+  font-family: Klee;
+  color: #6890C0;
+  margin:20px;
+}
+
+.one-by-one .purchase-one-by-one {
+  padding:2vh;
+}
+
+
+
+.one-by-one .purchase-one-by-one .btn {
+  width: 360px;
+  height: 48px;
+  border-radius: 10px;
+  background: #8d5a97;
+  border: 1px solid #0a0a0a;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.45);
+  color:white;
+  margin:20px auto;
+}
+
+.one-by-one .purchase-one-by-one .btn:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+
+/* purchase_and_shipment_details */
+.purchase_and_shipment_details {
+  background:#fff;
+}
+
+.purchase_and_shipment_details h2 {
+  text-align: center;
+  padding:40px 0 10px;
+}
+
+.purchase_and_shipment_details .details h2 span {
+  height: 40px;
+  background: #678fbf;
+  border: 1px solid #707070;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 20px;
+  font-family: Klee;
+  color: white;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.45);
+
+}
+
+.purchase_and_shipment_details h3 {
+  font-family: Klee;
+  text-align: center;
+}
+
+.purchase_and_shipment_details p {
+  font-family: Klee;
+  text-align: center;
+}
