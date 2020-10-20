@@ -49,6 +49,12 @@ footer ul li a {
   text-decoration: underline;
 }
 
+.panel-title:hover {
+  color:linear-gradient(to right, #023547, #1c5166, #346e86, #4c8ea7, #64aeca);
+  text-decoration:none;
+  border-bottom: 2px solid linear-gradient(to right, #023547, #1c5166, #346e86, #4c8ea7, #64aeca);
+}
+
 
 .section_01 h1, .word-of-mouth {
   font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
