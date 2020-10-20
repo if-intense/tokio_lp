@@ -50,9 +50,8 @@ footer ul li a {
 }
 
 .panel-title:hover {
-  color:linear-gradient(to right, #023547, #1c5166, #346e86, #4c8ea7, #64aeca);
   text-decoration:none;
-  border-bottom: 2px solid linear-gradient(to right, #023547, #1c5166, #346e86, #4c8ea7, #64aeca);
+  border-bottom: 2px solid #EAD875;
 }
 
 
