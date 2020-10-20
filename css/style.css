@@ -6,6 +6,10 @@ body {
   -o-background-size: cover;
 }
 
+
+.br_on {
+  display: none;
+}
 /*footer*/
 
 footer {
@@ -34,10 +38,56 @@ footer ul li a {
 }
 /*footer*/
 
+.open {
+  background: #efa2a2;
+}
+
+.panel-title {
+  color:white;
+  text-align:center;
+  padding:10px 0;
+  text-decoration: underline;
+}
+
 
 .section_01 h1, .word-of-mouth {
-  font-family: Klee;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   font-weight: normal;
+}
+
+/* shop button */
+
+.container {
+  position:relative;
+}
+.shop img {
+  position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: -20px;
+    z-index: 999;
+}
+
+
+.top-banner {
+  background-image: linear-gradient(to right, #b9d7e2, #cee0ec, #e1e9f3, #f2f4f9, #ffffff);
+  position: relative;
+}
+.top-banner h1{
+  text-align: center;
+}
+
+.top-banner .left {
+  position: absolute;
+  bottom:0;
+  left: 0;
+}
+
+.top-banner .right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /*word-of-mouth*/
@@ -46,7 +96,7 @@ footer ul li a {
 }
 
 .word-of-mouth h3{
-  font-family: Klee;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   font-weight: bold;
   text-align: center;
   text-decoration:underline;
@@ -77,21 +127,233 @@ footer ul li a {
 /* subscription-warning */
 .subscription-warning {
   background: linear-gradient(#b9d7e2 0%, #8ab7ef 100%);
-  font-family: Klee;
-
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  padding:4vh;
 }
 
+
+.subscription-warning h4{
+  text-align:center;
+  padding:20px;
+}
 .subscription-warning h4 span{
   background: white;
   color: #ead875;
   text-align: center;
+  font-size:1.75em;
+  padding:20px;
+  border-radius: 10px;
+  box-shadow:0 3px 6px rgba(0, 0, 0, 0.6)
+}
+
+.subscription-warning h5 {
+  font-size:2em;
+  text-align:center;
+}
+
+.subscription-warning p {
+  text-align: center;
+  font-size:1.25em;
+}
+
+/* stylist-evaluation */
+.stylist-evaluation {
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  text-align: center;
+  background: url('../img/wall_bg.png');
+  background-size: cover;
+  padding:30px;
+}
+
+.stylist-evaluation .stylist {
+  margin:2vh 0;
+}
+
+.stylist-evaluation .stylist .testimonials{
+  margin:2vh 0;
+}
+
+/* section_001 */
+.section_001 {
+  background: linear-gradient(#fff 0%, #6cbcd8 100%);
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  text-align: center;
+  padding:30px;
+}
+.section_001 h4 {
+  color:#A882B0; 
+}
+
+.section_001 h4 {
+  color:#A882B0; 
+}
+
+.section_001 h6 {
+  font-size: 1.25em;
+}
+
+.section_001 h3 {
+  color:#fff;
+  font-size:3em; 
+}
+
+/* .section_002 */
+.section_002 {
+  background: linear-gradient(#fff 0%, #bfbfbf 100%);
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+}
+
+.section_002 h2 {
+  text-align:center;
+  padding:30px;
+}
+
+.section_002 p {
+  text-align:center;
+  line-height:2em;
+}
+
+/* section_003 */
+.section_003 {
+  background:url("../img/tokioinkarami.png");
+  background-size:cover;
+  background-position: center;
+
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  /* background-color:grey; */
+  padding: 100px;
+}
+
+.section_003 .text_003 {
+  background: rgba(255, 255, 255, 90%);
+  width:50%;
+  max-width:560px;
+  height:400px;
+  padding:6vh 40px;
+  text-align: center;
+} 
+
+.section_003 .text_003 h5 {
+  line-height: 2em;
+}
+
+/* そもそもインカラミって？ */
+.what_is_inkarami {
+  text-align: center;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  background: rgba(235, 235, 235, 100%);
+}
+
+.what_is_inkarami h2 {
+  font-size:3em;
+}
+
+
+.what_is_inkarami h3 {
+  font-weight:bold;
+  font-size: 2.5em;
+  margin-top: 100px;
+}
+.what_is_inkarami p {
+  font-size:1.5em;
+  line-height:2em;
+}
+
+.what_is_inkarami h4 {
+  margin:100px 0;
+}
+
+.inkarami_1_2 {
+  background:pink;
+  padding:40px 20px;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+}
+
+.inkarami_1_2 p {
+  font-size:1.5em;
+  text-align: center;
+  color:white;
+}
+
+.inkarami_1_2 h5 {
+  font-size:1em;
+  text-align: center;
+  width:72.7%;
+  margin:20px auto;
+  padding:20px 30px;
+  background:rgba(229, 229, 229, 0.8);
+}
+
+.inkarami_1_2 .graph {
+  width: 87%;
+  max-width:480px;
+  margin:0 auto;
+  background:rgb(255, 255, 255);
+  text-align: center;
+}
+
+.inkarami_1_2 .graph p{
+  text-align: left;
+  font-size:10px;
+  color:rgb(0, 0, 0);
+}
+
+.inkarami_1_2 .graph h6{
+  text-align: left;
+  font-size:14px;
+}
+
+
+.inkarami_3_4 {
+  line-height: 3em;
+  color:white;
+  padding:8vh 0;
+  background:grey;
+  text-align:center;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+}
+
+.inkarami_3_4 h6 {
+  font-size:1.5em;
+  line-height: 2em;
+}
+
+.inkarami_3_4 h6 strong, .inkarami_3_4 p span {
+  font-size:1.5em;
+  color:#c93f25;
+}
+
+.inkarami_3_4 p {
+  font-size:1.5em;
+}
+
+.inkarami_3_4 p {
+  font-size:1.5em;
+}
+
+/* フラーレン 18MEA セラミド*/
+.ceramide-18MEA-fullerene {
+  background:grey;
+}
+
+.three-pillars {
+  background:white;
+  border:1px solid black;
+  box-shadow:3px 3px 3px;
+  width:90%;
+  margin:0 auto;
+  text-align: center;
+  height:420px;
+  padding:40px 10px;
+  margin:40px auto;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
 }
 
 /* インカラミの仕組み */
 .how_inkarami_works {
   background: linear-gradient(#a5d1e0 0%, #fff 100%);
   padding:4vh;
-  font-family: Klee;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
 }
 
 .how_inkarami_works h2 {
@@ -139,7 +401,7 @@ footer ul li a {
   font-size:1.5em;
   line-height:2em;
   text-align: center;
-  font-family: Klee;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
 }
 
 .section001 p span {
@@ -157,7 +419,7 @@ footer ul li a {
   background: linear-gradient(#678fbf 0%, #b4ddeb 100%);
   box-shadow: 5px 3px 6px rgba(0, 0, 0, 0.54);
   text-align: center;
-  font-family: Klee;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   padding:20px;
   margin:4vh auto;
 }
@@ -188,7 +450,7 @@ footer ul li a {
 }
 
 .shampoo-treatment h3 {
-  font-family: Klee;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   text-align: center;
   margin-top:30px;
 }
@@ -280,6 +542,17 @@ footer ul li a {
 
 /*subscription*/
 
+.subscription {
+  background: white;
+  text-align: center;
+  padding:20px;
+
+}
+
+.subscription img.product {
+  margin: 0 auto;
+}
+
 .subscription .limited-for-subscription-only {
   max-width: 480px;
   max-height: 264px;
@@ -287,17 +560,28 @@ footer ul li a {
   filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.54));
   position:relative;
   border-radius: 10px 10px 0 0;
+  margin: 30px auto;
+  position: relative;
+}
+
+.subscription .limited-for-subscription-only .bargain {
+  position: absolute;
+  top: -40px;
+  left: -20px;
 }
 
 .subscription .limited-for-subscription-only h5 {
   font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro";
   text-align: center;
+  color: rgb(234,216,117);
+  padding-top:20px;
 }
 
 .subscription .limited-for-subscription-only p {
-  font-family: Klee;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   font-weight: normal;
   text-align: center;
+  color:white;
 }
 
 .subscription .limited-for-subscription-only .center {
@@ -313,7 +597,7 @@ footer ul li a {
   background: linear-gradient(#efa2a2 0%, #fe6a8d 100%);
   box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.45);
   color:#fff;
-  margin-bottom:20px;
+  margin-bottom:40px;
 }
 
 
@@ -332,7 +616,7 @@ footer ul li a {
   padding:30px;
 }
 .trial-set h2 {
-  font-family: Klee;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   text-align: center;
   margin-bottom:2vh;
 }
@@ -372,16 +656,23 @@ footer ul li a {
 /* 単体購入 */
 .one-by-one {
   background: url('../img/wall_bg.png');
+  background-size: cover;
 }
 .one-by-one h2 {
   text-align: center;
-  font-family: Klee;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   color: #6890C0;
   margin:20px;
 }
 
 .one-by-one .purchase-one-by-one {
   padding:2vh;
+}
+
+.one-by-one .purchase-one-by-one h2 {
+  text-align:center;
+  display: block;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
 }
 
 
@@ -420,18 +711,121 @@ footer ul li a {
   text-align:center;
   margin:20px auto;
   padding:10px 20px;
-  font-family: Klee;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   color: white;
   box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.45);
+}
 
+.purchase_and_shipment_details .details h2 img {
+  width:50%;
 }
 
 .purchase_and_shipment_details h3 {
-  font-family: Klee;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   text-align: center;
 }
 
 .purchase_and_shipment_details p {
-  font-family: Klee;
+  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   text-align: center;
 }
+
+@media (max-width: 575.98px) { 
+
+  .br_on {
+    display: block;
+  }
+  .subscription-warning h4{
+    font-size:1em;
+  }
+
+  .word-of-mouth h3{
+    font-size:1.5em;
+    margin:10px;
+  }
+
+  .section001 p {
+    font-size:1.25em;
+  }
+
+  .section_001 h3 {
+    font-size: 2em;
+  }
+
+  .section002 .text p {
+    font-size: 1.2em;
+  }
+
+  .section_003 .text_003 {
+    background: rgba(255, 255, 255, 90%);
+    width: 100%;
+    margin:10px auto;
+    padding: 3vh 5px;
+    text-align: center;
+    box-shadow:0 3px 6px rgba(0, 0, 0, 0.8);  
+  }
+
+  .section_003 .text_003 h5 {
+    font-size:1em;
+  }
+
+  .what_is_inkarami h2 {
+    font-size: 2em;
+  }
+
+  .what_is_inkarami p {
+    font-size: 1.1em;
+    line-height: 2em;
+  }
+
+  .what_is_inkarami h4 {
+    font-size:1.1em;
+    line-height:2em;
+    margin:50px auto;
+  }
+
+  .what_is_inkarami h3 {
+    font-size: 2em;
+    margin-top: 50px;
+  }
+  
+
+  .how_inkarami_works h2 {
+    text-align: center;
+    font-size: 1.1em;
+  }
+
+
+  .how_inkarami_works p {
+    font-size: 1.3em;
+  }
+
+  .how_inkarami_works p span {
+    font-size: 1.25em;
+  }
+
+  .inkarami_1_2 .graph {
+    width: 98%;
+    margin:0 auto;
+    background:rgb(255, 255, 255);
+    text-align: center;
+    padding:10px;
+  }
+
+  .shampoo-treatment h3 {
+    font-size:24px;
+  }
+
+  .shampoo-treatment-purchase .shampoo-treatment-subscription p {
+    width: 100%;
+    font-size:1em;
+    font-weight: bold;
+  }
+
+  .purchase_and_shipment_details h3 {
+    font-size:1.25em;
+  }
+
+
+
+ }
