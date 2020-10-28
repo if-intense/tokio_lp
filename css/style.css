@@ -86,7 +86,16 @@ footer ul li a {
   text-align: center;
 }
 .top-banner h1{
+  /* background:white; */
+  color:#1f7c9b;
+  font-size:3em;
+  font-style: italic;
+}
+
+.top-banner .top-banner-text {
   background:white;
+  padding:10px 5px;
+  width:100%;
 }
 
 .top-banner .left {
@@ -131,8 +140,10 @@ footer ul li a {
 }
 
 .word-of-mouth .female .testimonials h6, .word-of-mouth .female .testimonials p {
-  font-size:13px;
+  font-size:18px;
 }
+
+
 
 
 /* subscription-warning */
@@ -566,7 +577,6 @@ footer ul li a {
   background: white;
   text-align: center;
   padding:20px;
-
 }
 
 .subscription img.product {
@@ -770,7 +780,7 @@ footer ul li a {
 }
 
 /* Tablet 992px → 768px */
-@media (min-width: 768px) { 
+@media (max-width: 992px) { 
   .br_eak {
     display: block;
   }
