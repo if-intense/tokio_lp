@@ -886,6 +886,9 @@ footer ul li a {
     display: block;
   }
 
+  .subscription .limited-for-subscription-only p {
+    font-size:0.9em;
+  }
   .subscription-warning h4{
     font-size:1em;
   }
