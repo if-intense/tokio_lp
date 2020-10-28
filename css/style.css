@@ -707,7 +707,8 @@ footer ul li a {
 
 
 .one-by-one .purchase-one-by-one .btn {
-  width: 360px;
+  width:65%;
+  max-width: 360px;
   height: 48px;
   border-radius: 10px;
   background: #8d5a97;
@@ -913,7 +914,7 @@ footer ul li a {
   
 
   .section_001 h4 {
-    font-size:1em;
+    font-size:1.4em;
   }
 
   .section_001 h3 {
@@ -1080,9 +1081,81 @@ footer ul li a {
 
   footer ul li a {
     font-size:0.7em;
+  }
+ }
 
+
+ /* smartphone view 575px and down */
+@media (max-width: 375px) {
+  .slash {
+    display: none;
   }
 
+  .stylist-evaluation h6 {
+    font-size:0.8em;
+  } 
 
+  .stylist-evaluation h4 {
+    font-size:1.3em;
+    font-weight:bold;
+  }
 
- }
+  .stylist-evaluation h5 {
+    font-weight:bold;
+    font-size:1.1em;
+  }
+
+  .section_001 h4 {
+    font-size:1.1em;
+    font-weight:bold;
+  }
+
+  .section_002 h2 {
+    font-size:20px;
+  }
+
+  .section_002 p {
+    font-size: 0.8em;
+  }
+
+  .section_003 .text_003 h5 {
+    font-size: 0.8em;
+  }
+
+  .panel-title {
+    font-size: 0.9em;
+  }
+
+  .section001 p {
+    font-size: 0.8em;
+  }
+
+  .section002 .text h3 {
+    font-size: 1.5em;
+  }
+
+  .section002 .text p {
+    font-size: 1.1em;
+  }
+
+  .shampoo-treatment h3 {
+    font-size: 18px;
+  }
+
+  .one-by-one h2 {
+    font-size: 1.4em;
+  }
+
+  .trial-set .trial-set-item {
+    width: 95%;
+  }
+
+  .subscription-warning h4 {
+    font-size: 0.9em;
+  }
+
+  .subscription-warning h5 {
+    font-size: 1.4em;
+  }
+
+}
