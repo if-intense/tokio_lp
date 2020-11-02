@@ -61,7 +61,7 @@ footer ul li a {
 
 
 .section_01 h1, .word-of-mouth {
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   font-weight: normal;
 }
 
@@ -90,24 +90,55 @@ footer ul li a {
   color:#1f7c9b;
   font-size:3em;
   font-style: italic;
+  font-family: ro-nikkatsu-sei-kai-std, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .top-banner .top-banner-text {
   background:white;
   padding:10px 5px;
   width:100%;
+  float:none;
 }
 
-.top-banner .left {
-  position: absolute;
-  bottom:0;
-  left: 0;
+.img-area .left {
+  /* background:red; */
+  width:65.45%;
+  max-width:720px;
+  float: left;
 }
 
-.top-banner .right {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+.img-area .right {
+  background:#fff;
+  width:34.55%;
+  max-width:380px;
+  float: right;
+}
+
+.img-area .right img.top-thumbnail {
+  width:95%;
+  max-width:360px;
+  margin: 0 auto;
+}
+
+/* .top-banner ul {
+  list-style-type: none;
+  background:#fff;
+  margin:0 auto;
+}
+
+.top-banner ul li {
+  font-size:30px;
+  padding-right:20px;
+  padding-top:10px;
+  padding-bottom:5px;
+  
+} */
+
+.top-banner h3 {
+  background:#fff;
+  font-weight: bold;
 }
 
 /*word-of-mouth*/
@@ -116,7 +147,7 @@ footer ul li a {
 }
 
 .word-of-mouth h3{
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   font-weight: bold;
   text-align: center;
   text-decoration:underline;
@@ -140,7 +171,7 @@ footer ul li a {
 }
 
 .word-of-mouth .female .testimonials h6, .word-of-mouth .female .testimonials p {
-  font-size:18px;
+  font-size:14px;
 }
 
 
@@ -149,14 +180,14 @@ footer ul li a {
 /* subscription-warning */
 .subscription-warning {
   background: linear-gradient(#b9d7e2 0%, #8ab7ef 100%);
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   padding:4vh;
 }
 
 
 .subscription-warning h4{
   text-align:center;
-  padding:20px;
+  /* padding:20px; */
 }
 .subscription-warning h4 span{
   background: white;
@@ -180,7 +211,7 @@ footer ul li a {
 
 /* stylist-evaluation */
 .stylist-evaluation {
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   text-align: center;
   background: url('../img/wall_bg.png');
   background-size: cover;
@@ -202,16 +233,16 @@ footer ul li a {
 /* section_001 */
 .section_001 {
   background: linear-gradient(#fff 0%, #6cbcd8 100%);
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   text-align: center;
   padding:30px;
 }
 .section_001 h4 {
-  color:#A882B0; 
+  color:#A882B0;
 }
 
 .section_001 h4 {
-  color:#A882B0; 
+  color:#A882B0;
 }
 
 .section_001 h6 {
@@ -221,13 +252,13 @@ footer ul li a {
 
 .section_001 h3 {
   color:#fff;
-  font-size:2.5em; 
+  font-size:2.5em;
 }
 
 /* .section_002 */
 .section_002 {
   background: linear-gradient(#fff 0%, #bfbfbf 100%);
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
 }
 
 .section_002 h2 {
@@ -246,7 +277,7 @@ footer ul li a {
   background-size:cover;
   background-position: center;
 
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   /* background-color:grey; */
   padding: 100px;
 }
@@ -258,7 +289,7 @@ footer ul li a {
   height:400px;
   padding:6vh 40px;
   text-align: center;
-} 
+}
 
 .section_003 .text_003 h5 {
   line-height: 2em;
@@ -268,7 +299,7 @@ footer ul li a {
 /* そもそもインカラミって？ */
 .what_is_inkarami {
   text-align: center;
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   background: rgba(235, 235, 235, 100%);
 }
 
@@ -294,7 +325,7 @@ footer ul li a {
 .inkarami_1_2 {
   background:pink;
   padding:40px 20px;
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
 }
 
 .inkarami_1_2 p {
@@ -338,7 +369,7 @@ footer ul li a {
   padding:8vh 0;
   background:grey;
   text-align:center;
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
 }
 
 .inkarami_3_4 h6 {
@@ -374,14 +405,14 @@ footer ul li a {
   height:420px;
   padding:40px 10px;
   margin:40px auto;
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
 }
 
 /* インカラミの仕組み */
 .how_inkarami_works {
   background: linear-gradient(#a5d1e0 0%, #fff 100%);
   padding:4vh;
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
 }
 
 .how_inkarami_works h2 {
@@ -429,7 +460,7 @@ footer ul li a {
   font-size:1.5em;
   line-height:2em;
   text-align: center;
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
 }
 
 .section001 p span {
@@ -447,7 +478,7 @@ footer ul li a {
   background: linear-gradient(#678fbf 0%, #b4ddeb 100%);
   box-shadow: 5px 3px 6px rgba(0, 0, 0, 0.54);
   text-align: center;
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   padding:20px;
   margin:4vh auto;
 }
@@ -478,7 +509,7 @@ footer ul li a {
 }
 
 .shampoo-treatment h3 {
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   text-align: center;
   margin-top:30px;
   font-size:1.5em;
@@ -496,7 +527,7 @@ footer ul li a {
   font-size: 0.9em;
   font-family: "Hiragino Mincho ProN";
   color:#fff;
-  
+
 }
 
 .shampoo-treatment-item p em {
@@ -608,7 +639,7 @@ footer ul li a {
 }
 
 .subscription .limited-for-subscription-only p {
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   font-weight: normal;
   text-align: center;
   color:white;
@@ -647,7 +678,7 @@ footer ul li a {
   padding:30px;
 }
 .trial-set h2 {
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   text-align: center;
   margin-bottom:2vh;
 }
@@ -691,7 +722,7 @@ footer ul li a {
 }
 .one-by-one h2 {
   text-align: center;
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   color: #6890C0;
   margin:20px;
 }
@@ -751,7 +782,7 @@ footer ul li a {
   text-align:center;
   margin:20px auto;
   padding:10px 20px;
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   color: white;
   box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.45);
 }
@@ -761,12 +792,12 @@ footer ul li a {
 }
 
 .purchase_and_shipment_details h3 {
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','Yu Mincho', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   text-align: center;
 }
 
 .purchase_and_shipment_details p {
-  font-family: 'klee','ＭＳ 明朝', 'MS Mincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
+  font-family: 'klee','ＭＳ 明朝', 'YuMincho','TsukuARdGothic-Regular','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif;
   text-align: center;
 }
 
@@ -780,9 +811,20 @@ footer ul li a {
 }
 
 /* Tablet 992px → 768px */
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
   .br_eak {
     display: block;
+  }
+
+  /* .top-banner ul li {
+    
+    display: flex;
+    width:100%;
+    justify-content: center;
+  } */
+
+  .top-banner h3 {
+    font-size:1.25em;
   }
 
   .subscription .limited-for-subscription-only p {
@@ -811,6 +853,19 @@ footer ul li a {
 
   .stylist-evaluation h5 {
     font-size: 1.1em;
+  }
+
+  .reverse{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .reverse div:nth-child(1){
+    order:2;
+  }
+ 
+  .reverse div:nth-child(2){
+    order:1;
   }
 
   .section_001 h3 {
@@ -878,7 +933,7 @@ footer ul li a {
  }
 
 /* smartphone view 575px and down */
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
 
   .shop img {
     position: fixed;
@@ -897,6 +952,14 @@ footer ul li a {
     display: block;
   }
 
+  .top-banner h1{
+    font-size:2em;
+  }
+
+  .top-banner h3 {
+    font-size:1em;
+  }
+
   .subscription .limited-for-subscription-only p {
     font-size:0.9em;
   }
@@ -909,30 +972,47 @@ footer ul li a {
     margin:10px;
   }
 
+  .word-of-mouth .female .testimonials h6, .word-of-mouth .female .testimonials p {
+    font-size:14px;
+  }
+  
+ 
+
   .testimonials p {
     font-size:0.9em;
+    font-weight:bold;
+  }
+
+  .stylist-evaluation h6 {
+    font-size:0.9em;
+    font-weight:bold;
   }
 
   .stylist-evaluation h5 {
-    font-size:1em;
+    font-size:0.9em;
   }
 
   .section001 p {
     font-size:0.9em;
   }
 
-  
+
 
   .section_001 h4 {
-    font-size:1.4em;
+    font-size:1em;
   }
 
   .section_001 h3 {
     font-size: 1.5em;
   }
 
+  .section_001 h6 {
+    font-size:0.9em;
+    margin:30px 0;
+  }
+
   .section002 .text p {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   .section_002 h2 {
@@ -949,7 +1029,7 @@ footer ul li a {
     margin:10px auto;
     padding: 3vh 5px;
     text-align: center;
-    box-shadow:0 3px 6px rgba(0, 0, 0, 0.8);  
+    box-shadow:0 3px 6px rgba(0, 0, 0, 0.8);
   }
 
   .section_003 .text_003 h5 {
@@ -958,11 +1038,16 @@ footer ul li a {
 
   .subscription-warning h4 span {
     font-size: 1.5em;
+    padding:15px;
   }
 
   .subscription-warning h5 {
     font-size:1.5em;
   }
+
+  .subscription-warning p {
+    font-size: 1em;
+}
 
   .panel-title {
     font-size:1em;
@@ -987,7 +1072,7 @@ footer ul li a {
     font-size: 2em;
     margin-top: 50px;
   }
-  
+
 
   .how_inkarami_works h2 {
     text-align: center;
@@ -1061,7 +1146,7 @@ footer ul li a {
   .trial-set .trial-set-item h3 {
     font-size:0.9em;
   }
-  
+
   .one-by-one h2 {
     font-size:1.5em;
   }
@@ -1077,8 +1162,8 @@ footer ul li a {
     font-size:0.8em;
   }
 
-  .purchase_and_shipment_details h3 {
-    font-size:1.25em;
+  .purchase_and_shipment_details .details h3 {
+    font-size:1em;
   }
 
   footer ul {
@@ -1092,18 +1177,31 @@ footer ul li a {
   footer ul li a {
     font-size:0.7em;
   }
+
+  footer p {
+    margin-top:20px;
+  }
  }
 
 
- /* smartphone view 575px and down */
+ /* smartphone view 375px and down */
 @media (max-width: 375px) {
   .slash {
     display: none;
   }
 
+  .top-banner h1{
+    font-size:1.5em;
+  }
+
+  .top-banner h3 {
+    font-size:0.8em;
+  }
+  
+
   .stylist-evaluation h6 {
     font-size:0.8em;
-  } 
+  }
 
   .stylist-evaluation h4 {
     font-size:1.3em;
