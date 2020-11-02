@@ -963,6 +963,13 @@ footer ul li a {
   .subscription .limited-for-subscription-only p {
     font-size:0.9em;
   }
+
+  .subscription .limited-for-subscription-only .bargain {
+    position: absolute;
+    top: -50px;
+    left: -20px;
+  }
+
   .subscription-warning h4{
     font-size:1em;
   }
@@ -984,7 +991,7 @@ footer ul li a {
   }
 
   .stylist-evaluation h6 {
-    font-size:0.9em;
+    font-size:0.75em;
     font-weight:bold;
   }
 
@@ -1012,7 +1019,7 @@ footer ul li a {
   }
 
   .section002 .text p {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .section_002 h2 {
@@ -1043,6 +1050,7 @@ footer ul li a {
 
   .subscription-warning h5 {
     font-size:1.5em;
+    margin-top:20px;
   }
 
   .subscription-warning p {
